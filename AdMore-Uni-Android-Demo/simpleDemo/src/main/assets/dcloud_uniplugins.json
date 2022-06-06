@@ -1,0 +1,33 @@
+{
+  "nativePlugins": [
+    {
+      "plugins": [
+        {
+          "type": "module",
+          "name": "AdMoreModule",
+          "class": "com.plutus.common.admore.bridge.uni.AdMoreModule"
+        },
+        {
+          "type": "module",
+          "name": "AdMoreRewardModule",
+          "class": "com.plutus.common.admore.bridge.uni.AdMoreRewardModule"
+        },
+        {
+          "type": "module",
+          "name": "AdMoreInterstitialModule",
+          "class": "com.plutus.common.admore.bridge.uni.AdMoreInterstitialModule"
+        },
+        {
+          "type": "module",
+          "name": "AdMoreNativeModule",
+          "class": "com.plutus.common.admore.bridge.uni.AdMoreNativeModule"
+        },
+        {
+          "type": "module",
+          "name": "AdMoreBannerModule",
+          "class": "com.plutus.common.admore.bridge.uni.AdMoreBannerModule"
+        }
+      ]
+    }
+  ]
+}
